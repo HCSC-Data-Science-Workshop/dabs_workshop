@@ -31,11 +31,9 @@ include:
   # feature engineering,  batch inference, quality monitoring, metric refresh, alerts and triggering retraining
 
   - ./resources/data_preparation.yml
-#  - ./resources/ml-artifacts-resource.yml
+# - ./resources/ml-artifacts-resource.yml
   - ./resources/automl_baseline.yml
   - ./resources/custom_model.yml
-  - ./resources/validation.yml
-  - ./resources/challenger_champion.yml
   - ./resources/batch_inference.yml
 
 # Deployment Target specific values for workspace
