@@ -29,9 +29,9 @@ This project contains the following components:
 contained in the following files:
 
 ```
-db_demo_dabs        <- Root directory. Both monorepo and polyrepo are supported.
+dbdemo_dabs        <- Root directory. Both monorepo and polyrepo are supported.
 │
-├── db_demo_dabs       <- Contains python code, notebooks and ML resources related to one ML project. 
+├── dbdemo_dabs       <- Contains python code, notebooks and ML resources related to one ML project. 
 │   │
 │   ├── requirements.txt        <- Specifies Python dependencies for ML code (for example: model training, batch inference).
 │   │
