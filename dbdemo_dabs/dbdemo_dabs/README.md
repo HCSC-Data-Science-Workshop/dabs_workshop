@@ -1,5 +1,5 @@
-# ny_taxi_koeppen
-This project comes with example ML code to train, validate and deploy a regression model to predict NYC taxi fares.
+# Advanced Churn Prediction
+This project comes with example ML code to train, validate and deploy a model to predict customer churn.
 If you're a data scientist just getting started with this repo for a brand new ML project, we recommend 
 adapting the provided example code to your ML problem. Then making and 
 testing ML code changes on Databricks or your local machine.
@@ -29,9 +29,9 @@ This project contains the following components:
 contained in the following files:
 
 ```
-ny_taxi_koeppen        <- Root directory. Both monorepo and polyrepo are supported.
+db_demo_dabs        <- Root directory. Both monorepo and polyrepo are supported.
 │
-├── ny_taxi_koeppen       <- Contains python code, notebooks and ML resources related to one ML project. 
+├── db_demo_dabs       <- Contains python code, notebooks and ML resources related to one ML project. 
 │   │
 │   ├── requirements.txt        <- Specifies Python dependencies for ML code (for example: model training, batch inference).
 │   │
@@ -58,15 +58,15 @@ ny_taxi_koeppen        <- Root directory. Both monorepo and polyrepo are support
 │   │
 │   ├── resources               <- ML resource (ML jobs, MLflow models) config definitions expressed as code, across dev/staging/prod/test.
 │       │
-│       ├── model-workflow-resource.yml                <- ML resource config definition for model training, validation, deployment workflow
+│       ├── data_preparation.yml                <- ML resource config for general data cleaning & creating Feature Store
 │       │
-│       ├── batch-inference-workflow-resource.yml      <- ML resource config definition for batch inference workflow
+│       ├── automl_baseline.yml      <- ML resource config definition for model training, validation, deployment workflow
 │       │
-│       ├── feature-engineering-workflow-resource.yml  <- ML resource config definition for feature engineering workflow
+│       ├── custom_model.yml  <- ML resource config definition for model training, validation, deployment workflow
 │       │
-│       ├── ml-artifacts-resource.yml                  <- ML resource config definition for model and experiment
+│       ├── batch_inference.yml                  <- ML resource config definition for batch inference workflow
 │       │
-│       ├── monitoring-resource.yml           <- ML resource config definition for quality monitoring workflow
+│       ├── ml-artifacts-resources.yml           <- ML resource config for model artifacts
 ```
 
 
