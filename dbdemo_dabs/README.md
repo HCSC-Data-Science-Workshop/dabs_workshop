@@ -1,4 +1,4 @@
-# ny_taxi_koeppen
+# Advanced Churn Prediction
 
 This directory contains an ML project based on the default
 [Databricks MLOps Stacks](https://github.com/databricks/mlops-stacks),
@@ -24,9 +24,9 @@ This project contains the following components:
 contained in the following files:
 
 ```
-ny_taxi_koeppen        <- Root directory. Both monorepo and polyrepo are supported.
+dbdemo_dabs        <- Root directory. Both monorepo and polyrepo are supported.
 │
-├── ny_taxi_koeppen       <- Contains python code, notebooks and ML resources related to one ML project. 
+├── dbdemo_dabs       <- Contains python code, notebooks and ML resources related to one ML project. 
 │   │
 │   ├── requirements.txt        <- Specifies Python dependencies for ML code (for example: model training, batch inference).
 │   │
